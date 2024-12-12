@@ -3,76 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinay Yadav | Strategy & Business Analyst</title>
+    <title>Personal Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
             color: #333;
         }
 
         header {
-            background: #333;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
             color: #fff;
-            padding: 10px 20px;
+            padding: 40px 20px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
         }
 
         nav {
-            background: #444;
-            padding: 10px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
 
         nav a {
-            color: #fff;
+            color: #6a11cb;
             text-decoration: none;
             margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #2575fc;
         }
 
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .about, .projects, .contact {
-            margin-bottom: 20px;
+        section {
+            margin-bottom: 40px;
         }
 
         h2 {
             color: #444;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            border-bottom: 2px solid #6a11cb;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f0f2f5;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        ul li:hover {
+            background: #e0e5ec;
         }
 
         footer {
             background: #333;
             color: #fff;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Vinay Yadav</h1>
+        <h1>Your Name</h1>
         <p>Welcome to my personal website!</p>
     </header>
 
@@ -83,12 +135,12 @@
     </nav>
 
     <div class="container">
-        <section id="about" class="about">
+        <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Vinay Yadav, a Strategy & Business Analyst. I enjoy Problem-Solving & Process Improvement. This website is a showcase of my work and interests. Feel free to explore!</p>
+            <p>Hello! I'm [Your Name], a [Your Profession or Interest]. I enjoy [Your Hobbies or Interests]. This website is a showcase of my work and interests. Feel free to explore!</p>
         </section>
 
-        <section id="projects" class="projects">
+        <section id="projects">
             <h2>Projects</h2>
             <p>Here are some of my recent projects:</p>
             <ul>
@@ -98,11 +150,11 @@
             </ul>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="contact">
             <h2>Contact</h2>
             <p>If you'd like to get in touch, feel free to reach out:</p>
             <ul>
-                <li>Email: vinay060520@gmail.com</li>
+                <li>Email: yourname@example.com</li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></li>
                 <li>GitHub: <a href="https://github.com/yourprofile" target="_blank">Your GitHub</a></li>
             </ul>
@@ -115,3 +167,4 @@
 
 </body>
 </html>
+
